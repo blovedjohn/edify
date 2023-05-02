@@ -1,0 +1,494 @@
+body{
+    height: 100vh;
+    width:99%; 
+
+}
+
+.nav{
+    display: flex;
+    position: relative;
+    right: 8rem;
+    padding-left: 20px;
+}
+
+#nav-link{
+    text-decoration: none;
+    color: black;
+    margin-top: 1rem;
+}
+
+.head{
+display:flex ;
+justify-content: space-around;
+align-items: center;
+}
+
+.nav-logreg{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    left: 5.8rem;
+    padding-left: 15px;
+}  
+
+#register{
+    background-color:  rgb(60, 41, 133);;
+    color: white;
+    padding-left: 10px;
+    padding-left: 10px;
+    padding-top: 13px;
+    padding-bottom: 13px;
+    border-radius: 5px;
+    margin-left: 1.2rem;
+    width:6rem;
+}
+
+.texbook-image{
+    background-image: url("../public/image/textbooks.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 500px;
+    height: 450px;
+    border-radius:20px;
+    margin-right: 9rem;
+
+}
+
+.access{
+    background-color: white;
+    padding-left: 10px;
+    padding-left: 10px;
+    padding-bottom: 15px;
+    padding-top: 15px;
+    box-shadow: 10px;
+    padding: 10px;
+    border: 5px solid whitesmoke;
+    border-radius: 10px;
+    width: 24%;
+    height: 29%;
+    text-align: center;
+    position: relative;
+    top:9.3rem;
+    right: 6rem;
+}
+
+.compatible{
+    background-color: white;
+    padding-left: 10px;
+    padding-left: 10px;
+    padding-bottom: 15px;
+    padding-top: 15px;
+    box-shadow: 10px;
+    padding: 10px;
+    border: 5px solid whitesmoke;
+    border-radius: 7px;
+    width: 23%;
+    height: 18%;
+    text-align: center;
+    position: relative;
+    left:20rem;
+    top: 2.6rem;
+}
+
+#compat{
+    position: relative;
+    bottom: 2rem;
+}
+
+#auto{
+    position: relative;
+    bottom: 2rem;
+    left: 1rem;
+}
+
+.material-ui{
+    display: flex;
+    position: relative;
+    top: 2.5rem;
+    right: 3rem;
+}
+
+
+
+.general{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.fee{
+    background-color:  rgb(60, 41, 133);;
+    color: white;
+    padding-left: 15px;
+    padding-left: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 5px;
+    font-size: 1.1rem;
+    width:14rem;
+}
+
+.landing{
+    color: #616161;
+    font-size: 2rem;
+}
+
+
+.welcome{
+    color:rgb(60, 41, 133); ;
+    font-size: 3.2rem;
+    position: relative;
+    top: 1.4rem;
+}
+
+.landing-page{
+    margin-right:10rem;
+}
+
+.textbook1-image{
+    width: 100%;
+    background-color:whitesmoke;
+   border: 30px solid  whitesmoke;
+   width: 70%;
+   height: 14%
+}
+
+
+.details{
+    color: #616161;
+}
+
+.cards{
+    margin-top: 1rem;
+   background-color: #fff ;
+   width: 18.4%;
+   height: 14%;
+   box-sizing: border-box;
+   border: none;
+   position: relative;
+   left: 2.4rem;
+   top: 7rem;
+}
+
+
+.all-cards{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.view{
+    background-color:  rgb(60, 41, 133);;
+    color: white;
+    padding-left: 10px;
+    padding-left: 10px;
+    padding-top: 13px;
+    padding-bottom: 13px;
+    border-radius: 5px;
+    width: 10rem;
+    text-align: center;
+    position: relative;
+    right: 7rem;
+    bottom: 7rem;
+}
+
+.first-page{
+    margin-top: 12rem;
+    margin-right: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.get-started{
+    background-color:  rgb(60, 41, 133);;
+    color: white;
+    padding-left: 5px;
+    padding-left: 5px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 5px;
+    width: 8rem;
+    text-align: center
+}
+
+.firstpage-image{
+    border-radius: 10px;
+}
+
+.goal{
+    font-size: 1.4rem;
+    color: #616161;
+}
+
+.innovation{
+    font-size: 2rem;
+    color: #616161;
+}
+
+.page-details{
+    position: relative;
+    right: 5rem;
+}
+
+.firstpage-image{
+    position: relative;
+    left: 5rem;
+}
+
+.pages{
+    position: relative;
+    top: 7rem;
+    color: #616161;
+    
+}
+
+.image1{
+    background-image: url("../public/image/bickry.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 450px;
+    width: 420px;
+    background-color: lightgray;
+    border-radius: 10px;
+    margin-left: 3rem;
+}
+
+
+
+#mission{
+    margin-left: 1.4rem;
+}
+
+
+
+.stay{
+    background-color: whitesmoke;
+    color: #616161;
+    padding-left: 15px;
+    padding-left: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 5px;
+    width: 35%;
+    height: 135px;
+    text-align: center;
+    position: relative;
+    left: 21rem;
+    top: 4rem;
+}
+
+.join{
+   font-size: 2rem;
+   position: relative; 
+   bottom: 6rem;
+}
+
+.second{
+    display: flex;
+    margin-top: 15rem;
+}
+
+.second-details{
+    color: #616161;
+    margin-left: 10rem;
+    margin-top: 4rem;
+}
+
+.second-headline{
+    font-size: 2.8rem;
+    color: black;
+}
+
+.third{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 7rem;
+}
+
+.icons{
+    color:rgb(60, 41, 133); ;
+    background-color: antiquewhite;
+    border-radius: 50px;
+    border: 7px solid antiquewhite ;
+    width: 30%;
+    height: 30%;
+    position: relative;
+    top: 10px;
+    right: 20px;
+}
+
+.icon{
+    background-color: antiquewhite;
+    border-radius: 50px;
+    border: 7px solid antiquewhite ;
+    width: 30%;
+    height: 30%;  
+    margin-bottom: 10px; 
+}
+
+
+    .icons2{
+        color:white;
+        background-color: #616161;
+        border-radius: 50%;
+        border: 7px solid#616161 ;
+        width: 5%;
+        height: 5%;
+        position: relative;
+        top: 10px;
+        right: 20px;
+    }
+
+
+.style{
+    font-size: 1.2rem;
+    position: relative;
+    bottom: 1rem;
+    left: 20px;
+}
+
+.knowledgeable{
+   position: relative;
+   bottom: 6px;
+   
+}
+
+#images{
+    background-color: antiquewhite;
+    color: #616161;
+    border-radius: 50%;
+    border: 10px solid antiquewhite ;
+    width: 10%;
+    height:10%;  
+}
+
+.image2{
+    background-color: antiquewhite;
+    color: #616161;
+    border-radius: 50%;
+    border: 10px solid antiquewhite ;
+    width: 30px;
+    height: 30px;  
+}
+
+.guided{
+    display: flex;
+    margin-top: 5rem;
+    margin-right: 2rem;
+    font-size: 1.2rem;
+}
+
+.guideds{
+    display: flex;
+    margin-top: 6rem;
+    font-size: 1.2rem;
+    position: relative;
+    left: 5rem;
+}
+
+.p-tag{
+    margin-left: 5rem;
+    font-size: 1.1rem;
+}
+
+#stick{
+    position: relative;
+   left: 9rem; 
+   bottom: 1.5rem;
+}
+
+.why-us{
+    position: relative;
+    left: 40rem;
+    bottom: 2rem;
+    font-size: 2.1rem;
+}
+
+.what{
+    font-size: 3rem;
+}
+
+.footer{
+    background-color:black;
+    opacity: 0.9;
+    color:white;
+    margin-top: 8rem;
+}
+.footer-style{
+    background-color:rgb(60, 41, 133); ;
+    color: #fff;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    border-radius: 5px;
+    width: 15%;
+}
+
+.footer-head{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-contents{
+    margin-left: 5rem;
+    font-size: 1.1rem;
+    letter-spacing: 1px;
+}
+
+.publishing{
+    color: #616161;
+    font-size: 2rem;
+}
+
+.edtify-image{
+    position: relative;
+    bottom: 3.2rem;
+    left: 2rem;
+}
+
+.second-footer{
+    background-color: black;
+    color: #fff;
+    padding: 3rem;
+}
+
+.second-flex{
+    display: flex;
+}
+
+.links{
+    position: relative;
+    left: 30rem;
+    bottom: 4rem;
+}
+
+.store1{
+    margin-left: 2rem;
+}
+
+
+.store2{
+    position: relative;
+    left: 16rem;
+}
+
+.built{
+display: flex;
+justify-content: center;
+align-items: center;
+margin-left: 5rem;
+}
+
+.edify{
+    position: relative;
+    top: 2rem;
+    right: 10rem;
+}
+
+
+
+
